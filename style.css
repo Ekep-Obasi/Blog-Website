@@ -1,0 +1,120 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCFPrEHJA.woff2) format('woff2');
+  font-weight: 400;
+  overflow-x: hidden;
+}
+.full-screen-container{
+  background-color: rgba(241,241,241,255);
+}
+.title-section{
+  text-align: center;
+  padding: 45px;
+}
+.col-left img{
+  width: 45vw;
+  margin-bottom: 0;
+}
+.text-area{
+  width: 42vw;
+  padding: 22px;
+  background-color: #fff;
+  margin: 0;
+}
+.col-left{
+ width: fit-content;
+ margin-bottom: 20px;
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.main-container{
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.img-links img{
+  height: 75px;
+  width: 75px;
+}
+.links{
+  display: flex;
+  width: 26vw;
+  padding: 12px;
+  gap: 7px;
+  align-items: center;
+  background-color: #fff;
+  border-bottom:1px solid rgba(243,243,243,255);
+}
+.links:hover{
+  background: lightgray;
+}
+.bottom{
+  display: flex;
+  justify-content: space-between;
+}
+.avatar{
+ width: 23vw;
+ margin-top: ;
+}
+.col-right{
+  width: fit-content;
+  margin: 5px;
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.left-column{
+  gap: 20px;
+}
+.box-5{
+  display: flex;
+  flex-direction: column;
+  width: 27vw;
+}
+.lines{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  margin: 12px;
+  background-color: white;
+}
+button{
+  padding: 15px;
+  background-color: white;
+  border: 1px solid lightgray;
+}
+.heading{
+  background-color: inherit;
+}
+.footer{
+  background: rgba(97,97,97,255);
+  padding: 12px;
+  width: 100vw;
+}
+.footer button:last-child{
+  background-color: black;
+  color: white;
+  border: none;
+}
+.footer button:first-child{
+  background-color: rgba(67,67,67,255);
+  color: white;
+  border: none;
+}
+span{
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+.box-3 span{
+  border-radius: ;
+}
